@@ -8,6 +8,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 import net.ryannoh.extracomplicatedmod.ExtraComplicatedMod;
+import net.ryannoh.extracomplicatedmod.block.ModBlocks;
 
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TAB =
@@ -22,6 +23,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(new ItemStack(ModItems.FLAX_FIBER.get()));
                         pOutput.accept(new ItemStack(ModItems.BRANCH.get()));
                         pOutput.accept(new ItemStack(ModItems.TWIG.get()));
+
+                        pOutput.accept(ModBlocks.DUMMY_BLOCK.get());
                     })
                     .build());
 

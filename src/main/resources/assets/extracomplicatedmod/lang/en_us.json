@@ -5,5 +5,7 @@
   "item.extracomplicatedmod.branch": "Branch",
   "item.extracomplicatedmod.twig": "Twig",
 
+  "block.extracomplicatedmod.dummy_block": "Dummy Block",
+
   "creativetab.extra_complicated_tab": "Extra Complicated Tab"
 }

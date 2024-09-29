@@ -14,6 +14,7 @@ import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.ryannoh.extracomplicatedmod.block.ModBlocks;
 import net.ryannoh.extracomplicatedmod.item.ModCreativeModeTabs;
 import net.ryannoh.extracomplicatedmod.item.ModItems;
 import org.slf4j.Logger;
@@ -31,6 +32,7 @@ public class ExtraComplicatedMod {
 
         ModCreativeModeTabs.register(modEventBus);
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
