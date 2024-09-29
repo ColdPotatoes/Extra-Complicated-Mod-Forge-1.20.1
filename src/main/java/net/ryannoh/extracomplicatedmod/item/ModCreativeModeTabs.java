@@ -19,6 +19,9 @@ public class ModCreativeModeTabs {
                     .displayItems((pParameters, pOutput) -> {
                         pOutput.accept(new ItemStack(ModItems.DIRT_PILE.get()));
                         pOutput.accept(new ItemStack(ModItems.FLAX.get()));
+                        pOutput.accept(new ItemStack(ModItems.FLAX_FIBER.get()));
+                        pOutput.accept(new ItemStack(ModItems.BRANCH.get()));
+                        pOutput.accept(new ItemStack(ModItems.TWIG.get()));
                     })
                     .build());
 

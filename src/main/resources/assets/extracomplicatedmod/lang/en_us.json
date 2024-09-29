@@ -1,6 +1,9 @@
 {
   "item.extracomplicatedmod.dirt_pile": "Dirt Pile",
   "item.extracomplicatedmod.flax": "Flax",
+  "item.extracomplicatedmod.flax_fiber": "Flax Fiber",
+  "item.extracomplicatedmod.branch": "Branch",
+  "item.extracomplicatedmod.twig": "Twig",
 
   "creativetab.extra_complicated_tab": "Extra Complicated Tab"
 }

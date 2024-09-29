@@ -15,6 +15,12 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> FLAX = ITEMS.register("flax",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FLAX_FIBER = ITEMS.register("flax_fiber",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BRANCH = ITEMS.register("branch",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> TWIG = ITEMS.register("twig",
+            () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

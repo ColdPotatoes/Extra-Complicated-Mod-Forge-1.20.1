@@ -53,6 +53,9 @@ public class ExtraComplicatedMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.DIRT_PILE);
             event.accept(ModItems.FLAX);
+            event.accept(ModItems.FLAX_FIBER);
+            event.accept(ModItems.BRANCH);
+            event.accept(ModItems.TWIG);
         }
     }
 
